@@ -1,330 +1,54 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="keywords" content="application, internet, communication, design, développement, conseil, stratégie, édition, création, HTML5, WordPress, CSS3, javascript, PHP, responsive, mobile" />
-		<meta name="description" content="Développement et création Web, agence de communication globale 360° et plus...">
-		<meta name="author" content="Charlie Merland">
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="profile" href="http://gmpg.org/xfn/11">
 
-		<link rel="icon" href="assets/img/favicon.png">
+		<title>Charlie Merland − Web Developer</title>
 
-		<title>Charlie Merland − Building the Web with panache</title>
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.min.css?v=10.0.0">
 
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300|Roboto:400,100,300,700" rel="stylesheet" type="text/css">
-		<link href="assets/fonts/caercam/style.css" rel="stylesheet" type="text/css">
-		<link href="assets/css/style.css" rel="stylesheet" type="text/css">
-
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
+		<meta property="og:title" content="Charlie Merland − Web Developer" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://www.caercam.org/" />
+		<meta property="og:image" content="https://www.caercam.org/assets/img/caercam-org.png" />
+		<meta property="og:description" content="I’m a web developer from France. I founded CaerCam.org, WPMovieLibrary and Talyes.in. I also run OnEnAGros!, did some blogging about tech and personal stuff. I watch a lot of movies and series, enjoy a good beer once in a while and spend way too much time on Twitter." />
 	</head>
 
 	<body>
 
-		<header id="header" class="block site-header" role="banner">
-			<nav class="navbar navbar-cyrano navbar-fixed-top" role="navigation">
-				<div class="navbar-header pull-left">
-					<a class="navbar-brand" href="/"><span class="icon-logo-o"></span></a>
-					<div id="menu" class="navbar-menu">
-						<a class="anchor" href="#main"><span class="icon-profile-male"></span></a>
-						<a class="anchor" href="#services"><span class="icon-briefcase"></span></a>
-						<a class="anchor" href="#projects"><span class="icon-beaker"></span></a>
-						<a class="anchor" href="#contact"><span class="icon-envelope"></span></a>
-						<button type="button" id="menu-toggle" class="navbar-toggle">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
+		<section id="sidebar" class="sidebar">
+			<p><img class="stache" src="assets/img/stache.png" alt="" /><strong>Hello there</strong>.<br />I am <strong>Charlie Merland</strong>.</p>
+			<p>I’m a web developer from France. I founded <a href="https://caercam.org/" target="_blank">CaerCam.org</a>, <a href="https://wpmovielibrary.com/" target="_blank">WPMovieLibrary</a> and <a href="https://talyes.in/" target="_blank">Talyes.in</a>. I also run <a href="https://onenagros.org/" target="_blank">OnEnAGros!</a>, did some blogging about <a href="https://blog.caercam.org/" target="_blank">tech</a> and <a href="https://blog.charliemerland.me/" target="_blank">personal stuff</a>. I watch a lot of <a href="https://blog.charliemerland.me/category/cinema/" target="_blank">movies</a> and <a href="https://blog.charliemerland.me/category/series/" target="_blank">series</a>, enjoy a good beer once in a while and spend way too much time on <a href="https://twitter.com/caercam" target="_blank">Twitter</a>.</p>
+			<div class="copyright">&copy; 2017 Charlie Merland</div>
+		</section>
+
+		<section id="wrapper" class="wrapper">
+
+			<button id="burger" type="button" class="burger"><span class="line"></span><span class="line"></span><span class="line"></span></button>
+
+			<article id="l" class="section left">
+				<div class="logo"></div>
+				<div class="content">
+					<a href="https://charliemerland.me/">CharlieMerland.me</a>
+					<div class="tags"><span>#personal</span><span>#blog</span></div>
 				</div>
-				<div id="navbar-social" class="navbar-social pull-right">
-				    <ul class="list-unstyled pull-right">
-					    <li><a href="https://www.facebook.com/pages/CaerCamorg/649810891793685?ref=hl"><span class="icon-facebook"></span></a></li>
-					    <li><a href="https://twitter.com/CaerCam"><span class="icon-twitter"></span></a></li>
-					    <li><a href="https://plus.google.com/u/0/b/110397271901579538963/+CaercamOrg/about"><span class="icon-googleplus"></span></a></li>
-					    <li><a href="https://fr.linkedin.com/in/charliemerlandcaercamorg/"><span class="icon-linkedin"></span></a></li>
-				    </ul>
-				</div><!--/.nav-collapse -->
-			</nav>
+			</article>
 
-			<hgroup class="hgroup">
-				<div class="container">
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-						<h1 class="h1"><span class="brand-firstname">charlie</span> <span class="brand-lastname">merland</span></h1>
-						<h2 class="h2">« Building the Web with panache »</h2>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-						<a class="anchor" href="#main"><span class="icon-profile-male"></span></a>
-						<a class="anchor" href="#services"><span class="icon-briefcase"></span></a>
-						<a class="anchor" href="#projects"><span class="icon-beaker"></span></a>
-						<a class="anchor" href="#contact"><span class="icon-envelope"></span></a>
-					</div>
+			<article id="r" class="section right">
+				<div class="logo"></div>
+				<div class="content">
+					<a href="https://talyes.in/">Talyes.in</a>
+					<div class="tags"><span>#corporate</span><span>#business</span></div>
 				</div>
-			</hgroup>
+			</article>
 
-		</header>
+		</section>
 
-		<div id="main" class="block main">
-			<div class="container">
-
-				<h1 class="main-title text-center"><span class="icon-2x icon-logo-alt"></span><small>CaerCam.org</small></h1>
-
-				<div class="lazy col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<p class="lead text-justify">Tombé dans le Web au début des années 2000, je me passionne pour la programmation et le webdesign depuis une dizaine d’années. D’abord personnelle, mon expérience du Web s’est peu à peu forgée à force d’expérimentations diverses avant de se concrétiser professionnellement en agence, puis en indépendant depuis 2012.</p>
-				</div>
-				<div class="lazy col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<p class="lead text-justify">Je travaille par passion. J’aime créer des sites de qualité, des designs puissants, élégants et intuitifs. J’aime l’expérimentation, la nouveauté, la modernité.</p>
-					<p class="lead text-justify">J’aime surtout les projets novateurs, qui ouvrent la porte à l’inspiration. N’hésitez plus : proposez-moi le vôtre !</p>
-				</div>
-
-			</div><!-- /.container -->
-		</div>
-
-		<div id="services" class="block services">
-			<div class="container">
-
-				<h1 class="main-title-inv text-center"><span class="icon-briefcase"></span><small>Nos services</small></h1>
-
-				<div class="lazy service text-center col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<span class="icon-4x icon-presentation"></span>
-					<h4>Analyse &amp; planification</h4>
-					<p>Évaluation détaillée de vos besoins et établissement d’un planning de réalisation</p>
-				</div>
-				<div class="lazy service text-center col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<span class="icon-4x icon-pencil"></span>
-					<h4>Design &amp; développement</h4>
-					<p>Création des visuels, chartes graphiques et illustrations, développement de fonctionnalités spécifiques</p>
-				</div>
-				<div class="lazy service text-center col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<span class="icon-4x icon-browser"></span>
-					<h4>Lancement</h4>
-					<p>Nom de domaine et hébergement, mise en ligne du site, organisation de campagnes de lancement</p>
-				</div>
-				<div class="lazy service text-center col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<span class="icon-4x icon-speedometer"></span>
-					<h4>Gestion &amp; administration</h4>
-					<p>Gestion nom de domaine et serveur, administration et gestion du site, assistance et suivi de projet</p>
-				</div>
-
-				<div class="lazy service text-center col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<span class="icon-4x icon-megaphone"></span>
-					<h4>Référencement</h4>
-					<p>Amélioration et optimisation de contenu, structure et mots-clés, campagnes publicitaires</p>
-				</div>
-				<div class="lazy service text-center col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<span class="icon-4x icon-genius"></span>
-					<h4>Réseaux Sociaux</h4>
-					<p>Intégration de services d'identification et de partage, création et gestion de profils</p>
-				</div>
-				<div class="lazy service text-center col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<span class="icon-4x icon-strategy"></span>
-					<h4>Stratégie &amp; Communication</h4>
-					<p>Développement de stratégie interne et commerciale, évènementiel, lancement de produit</p>
-				</div>
-				<div class="lazy service text-center col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<span class="icon-4x icon-notebook"></span>
-					<h4>Campagnes Emailing</h4>
-					<p>Campagnes marketing ciblées, prospection performante, placement de produit, valorisation de marque</p>
-				</div>
-
-			</div><!-- /.container -->
-		</div>
-
-		<div id="projects" class="block projects">
-			<div class="container">
-
-				<h1 class="main-title-alt text-center"><span class="icon-beaker"></span><small>Projets</small></h1>
-
-				<div class="lazy project text-center col-lg-8 col-md-8 col-sm-12 col-xs-12">
-					<img class="shadow" src="assets/img/wpmoly.png" alt="" />
-				</div>
-				<div class="lazy project text-center col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<h4>WordPress Movie Library</h4>
-					<p class="text-justify">WordPress Movie Library est une extension WordPress avancée permettant la création et la gestion d'une médiathèque de films.</p>
-					<p class="text-justify">WPMovieLibrary permet l'importation automatisée de listes de films et la récupération des métadonnées, images et affiches en quelques clics. Recherche de films par années, acteurs, réalisateurs, pays, langues, système de notation intégré, intégration de bande-annonces…</p>
-					<p class="text-center"><a class="btn btn-primary" href="http://wpmovielibrary.com">En savoir +</a></p>
-				</div>
-
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
-
-				<div class="lazy project text-center col-lg-8 col-md-8 col-sm-12 col-xs-12 pull-right">
-					<img src="assets/img/terminal.png" alt="" />
-				</div>
-				<div class="lazy project text-center col-lg-4 col-md-4 col-sm-12 col-xs-12 pull-left">
-					<h4>Cyrano</h4>
-					<p class="text-justify">Cyrano est un framework professionnel développé pour répondre aux besoins élémentaires d'une vaste gamme de sites.</p>
-					<p class="text-justify">Gestion automatique de taxonomies et contenus personnalisés, création de métadonnées spécifiques, recherches par métadonnées, panneau d'administration simplifié, gestion d'utilisateurs et de groupes…</p>
-					<p class="text-center"><a class="btn btn-primary" href="http://cyrano.caercam.org/">En savoir +</a></p>
-				</div>
-
-			</div><!-- /.container -->
-		</div>
-
-		<div id="contact" class="block contact">
-
-			<div class="container">
-
-				<h1 class="main-title-alt text-center"><span class="icon-envelope"></span><small>Contact</small></h1>
-
-				<div class="contact-local col-lg-4 col-md-4 col-sm-6 col-xs-12 text-left">
-					<h5 class="lazy">
-						<span class="icon-book-open"></span>
-						<span class="contact-item">
-							<span class="contact-title">Entreprise</span>
-							<span class="contact-field">CaerCam.org</span>
-						</span>
-					</h5>
-					<h5 class="lazy">
-						<span class="icon-profile-male"></span>
-						<span class="contact-item">
-							<span class="contact-title">Nom</span>
-							<span class="contact-field">Charlie Merland</span>
-						</span>
-					</h5>
-					<h5 class="lazy">
-						<span class="icon-map"></span>
-						<span class="contact-item">
-							<span class="contact-title">Adresse</span>
-							<span class="contact-field">1 rue des Hêtres<br />56650 INZINZAC-LOCHRIST</span>
-						</span>
-					</h5>
-					<h5 class="lazy">
-						<span class="icon-phone"></span>
-						<span class="contact-item">
-							<span class="contact-title">Téléphone</span>
-							<span class="contact-field">(+33)290741444</span>
-						</span>
-					</h5>
-				</div>
-				<div class="contact-social col-lg-offset-8 col-lg-4 col-md-offset-8 col-md-4 col-sm-6 col-xs-12 text-right">
-					<h5 class="lazy">
-						<span class="contact-item">
-							<span class="contact-title">Courriel</span>
-							<span class="contact-field"><a href="mailto:contact@caercam.org">contact@caercam.org</a></span>
-						</span>
-						<span class="icon-envelope"></span>
-					</h5>
-					<h5 class="lazy">
-						<span class="contact-item">
-							<span class="contact-title">Facebook</span>
-							<span class="contact-field"><a href="https://www.facebook.com/pages/CaerCamorg/649810891793685">facebook.com/CaerCamorg</a></span>
-						</span>
-						<span class="icon-facebook"></span>
-					</h5>
-					<h5 class="lazy">
-						<span class="contact-item">
-							<span class="contact-title">Twitter</span>
-							<span class="contact-field"><a href="https://twitter.com/CaerCam">twitter.com/CaerCam</a></span>
-						</span>
-						<span class="icon-twitter"></span>
-					</h5>
-					<h5 class="lazy">
-						<span class="contact-item">
-							<span class="contact-title">Google+</span>
-							<span class="contact-field"><a href="https://www.google.com/+CaercamOrg">google.com/+CaercamOrg</a></span>
-						</span>
-						<span class="icon-googleplus"></span>
-					</h5>
-				</div>
-				<div class="contact-form col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-12 col-xs-12">
-					<div id="contact-form" class="lazy contact-form">
-						<form role="form">
-							<div class="form-group">
-								<div class="input-group">
-									<input type="email" class="form-control" id="email" name="email" placeholder="Votre courriel" />
-									<input type="email" class="form-control" id="subject" name="subject" value="Bonjour !" />
-								</div>
-								<div class="input-group">
-									<textarea id="message" name="message" class="form-control" rows="3">Je suis venu vous dire…</textarea>
-								</div>
-							</div>
-							<input type="submit" class="btn btn-primary" value="Envoyer" />
-						</form>
-					</div>
-				</div>
-
-			</div><!-- /.container -->
-
-			<div id="googlemaps"></div>
-		</div>
-
-		<footer id="footer" class="site-footer">
-			<div class="container">
-
-				<h1 class="main-title-inv text-center"><span class="icon-linegraph"></span><small>En chiffres</small></h1>
-
-				<div class="lazy col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<h5 class="clearfix">
-						<div class="number">1966</div>
-						<div class="detail">jours passés à créer de nouvelles choses professionnellement…</div>
-						<div class="detail-bis">… depuis la fin des études de le début de la vie active</div>
-					</h5>
-				</div>
-				<div class="lazy col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<h5 class="clearfix">
-						<div class="number">1198</div>
-						<div class="detail">jours passés à créer <em>nos</em> propres projets…</div>
-						<div class="detail-bis">… depuis la fin du dernier contrat salariés</div>
-					</h5>
-				</div>
-				<div class="lazy col-lg-4 col-md-4 col-sm-6 col-xs-12">
-					<h5 class="clearfix">
-						<div class="number">847</div>
-						<div class="detail">jours à voler de nos propres ailes…</div>
-						<div class="detail-bis">… depuis la création de l'entreprise</div>
-					</h5>
-				</div>
-
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
-
-				<div class="lazy col-lg-3 col-md-3 col-sm-6 col-xs-6">
-					<h6 class="clearfix">
-						<div class="number">2 359,5</div>
-						<div class="detail">heures travaillées depuis le 1<sup>er</sup> janvier 2014</div>
-					</h6>
-				</div>
-				<div class="lazy col-lg-3 col-md-3 col-sm-6 col-xs-6">
-					<h6 class="clearfix">
-						<div class="number">190,8</div>
-						<div class="detail">litres de café bus depuis  le 1<sup>er</sup> janvier 2014</div>
-					</h6>
-				</div>
-				<div class="lazy col-lg-3 col-md-3 col-sm-6 col-xs-6">
-					<h6 class="clearfix">
-						<div class="number">1 097</div>
-						<div class="detail">contributions enregistrées sur GitHub en un an</div>
-					</h6>
-				</div>
-				<div class="lazy col-lg-3 col-md-3 col-sm-6 col-xs-6">
-					<h6 class="clearfix">
-						<div class="number">34 357 312</div>
-						<div class="detail">caractères écrits dans 7 projets principaux</div>
-					</h6>
-				</div>
-
-			</div><!-- /.container -->
-
-			<div id="copyright" class="copyright">
-
-				<p class="text-center small">© 2014 − CaerCam.org − Tous droits réservés</p>
-				<p class="text-center small">consulter les <a href="#"><span class="icon-wallet"></span> conditions générales de vente</a> et les <a href="#"><span class="icon-lock"></span> mentions légales</a>.</p>
-
-			</div><!-- /.copyright -->
-
-		</footer>
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
-		<script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
-		<script src="assets/js/maps.bentley.min.js" type="text/javascript"></script>
-		<script src="assets/js/maps.min.js" type="text/javascript"></script>
-		<script src="assets/js/public.js" type="text/javascript"></script>
+		<script type="text/javascript" src="assets/js/caercam.min.js?v=10.0.0"></script>
 
 	</body>
-
 </html>
